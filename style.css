@@ -1,0 +1,132 @@
+
+body{
+    background-color: white;
+    color: black;
+    font: normal 30pt 'calibri';
+    text-align: left;
+    text-indent: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+
+
+}
+h1 {
+    color: crimson;
+    text-align:center;
+    text-shadow: rgba(126, 40, 40, 0.884) 4px 3px 1px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+h2{
+
+    font: normal 90px candara;
+    text-indent: 3rem;
+    font-family:'helvetica', sans-serif;
+    color: white;
+    height: auto;
+    width: auto;
+    margin: 5%;
+}
+#estilo{
+
+    background-image:linear-gradient(to right ,rgb(107, 20, 20),rgb(175, 10, 10));
+    text-align: left;
+    text-indent: 3em;
+    font: bolder 30pt 'Calibri';
+    font-family:'Calibri', sans-serif;
+    color: white;
+    height: auto;
+    width: auto;
+    border-radius: 10pt;
+    padding: 50px 4px 50px;
+    margin: auto;
+}
+b{
+
+    color: rgba(23, 216, 168, 0.849);
+}
+#estilo2{
+
+    background-color: white;
+    color: black;
+    font: normal 30pt 'calibri';
+    text-align: justify;
+    text-indent: 1em;
+    margin: 5%;
+}
+h3{
+
+    font: bolder 35pt 'Candara';
+    text-align: left;
+    font-size: auto;
+    margin: 50pt;
+
+}
+mark{
+
+    border-radius: 10px;
+}
+.text{
+
+    width: 100%;
+    height: 50%;
+    text-align: left;
+
+}
+button{
+
+    background-color:transparent ;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    font: bolder 30px 'asap';
+    font-family: 'asap', sans-serif;
+    color: white;
+}
+.estilo3:hover{
+    background-color: rgba(23, 216, 168, 0.849);
+    color: black;
+    transition: 0.25s;
+}
+@media only screen and (min-width: 480px) and (max-width: 854px) {
+    h2{
+        font-size: 75px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 854px) {
+    p{
+        font-size: 27px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 854px) {
+    button{
+        font-size: 20px;
+    }
+}
+.text2{
+
+    font-family: 'calibri', sans-serif;
+    font: normal 30px 'calibri';
+    font-size: auto;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: auto;
+
+}
+@media only screen and (min-width: 480px) and (max-width: 854px) {
+    .text2{
+        font-size: 20px;
+    }
+}
+.nome{
+
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
